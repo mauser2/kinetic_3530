@@ -17,7 +17,6 @@ PV = "2.6.31"
 
 SRC_URI = "git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap-2.6.git;protocol=git \
 	   file://defconfig"
-
 SRC_URI_append = " \
                   file://ehci.patch \
                   file://0001-implement-TIF_RESTORE_SIGMASK-support-and-enable-the.patch \
